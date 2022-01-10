@@ -40,9 +40,6 @@ export default class ShortenForm {
         this.$shortendLinkModal = document.createElement("div");
     }
 
-    test() {
-
-    }
 
     onSubmit = (e) => {
         e.preventDefault();
