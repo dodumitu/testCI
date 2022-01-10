@@ -4,9 +4,6 @@ class App {
   $containerEl;
   $shortenForm;
   $shortenDomain;
-  $shortde;
-  $9qr;
-  $shiny;
 
   constructor() {
     this.$containerEl = document.createElement("div");
