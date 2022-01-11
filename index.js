@@ -3,7 +3,6 @@ import ShortenForm from "./components/shortenForm.js";
 class App {
   $containerEl;
   $shortenForm;
-  $shortenDomain;
 
   constructor() {
     this.$containerEl = document.createElement("div");
