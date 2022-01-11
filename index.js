@@ -16,8 +16,6 @@ class App {
   }
 
   render() {
-   
-
     this.$containerEl.appendChild(this.$shortenForm.render());
 
     return this.$containerEl;
