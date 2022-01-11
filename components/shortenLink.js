@@ -16,7 +16,7 @@ export default class ShortenLink {
         this.$shortenLink.setAttribute("class", "flex justify-center text-2xl mt-2 underline");
     }
 
-    render( Container) {
+    render(Container) {
         this.$shortenLinkContainer.appendChild(this.$shortenLinkHeader);
         this.$shortenLinkContainer.appendChild(this.$shortenLink);
 
